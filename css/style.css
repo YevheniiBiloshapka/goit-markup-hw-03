@@ -59,19 +59,39 @@ h1,h2,h3,h4,h5,h6,p,ul{margin: 0px;}
 }
 /*? button end */
 .filter-list{
+	padding: 0;
+	display: flex;
+	justify-content: center;
 	font-weight: 500;
 	line-height: 1.6;
+
+	margin-bottom: 50px;
+
 	text-align: center;
 	list-style-type: none;
 }
+.filter-item{
+	margin-right: 8px;
+}
 .filter{
-	border: none;
+	padding: 6px 22px;
 	font: inherit;
 	cursor: pointer;
+	color: var(--title-color);
+	border: none;
+}
+
+.filter-item:last-child{
+	margin-right: 0px;
 }
 .filter-active, .filter:hover, .filter:focus{
 	color: var(--white-color);
 	background-color: var(--active-color);
+
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+		0px 1px 2px rgba(0, 0, 0, 0.08),
+		0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
 }
 
 /* *font style */
@@ -313,27 +333,42 @@ margin-bottom: 30px;
 /* * main studio end  */
 
 .project-list {
+	display: block;
 	list-style-type: none;
 }
 
 .project {
 	width: 370px;
-	
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	outline: 2px solid red;
 }
 .project-link{
 text-decoration: none;
+}
+.project-img{
+	margin-bottom: 20px;
+}
+
+.project-info{
+	/* padding:0 24px 20px 24px; */
+	width: 322px;
 }
 .project-name {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 	color: var(--title-color);
+
+	margin-bottom: 4px;
 }
 
 .project-description {
 	font-weight: 400;
 	line-height: 1.8;
 	color: var(--text-color);
+
+	
 }
 /* * main portfolio end  */
 
