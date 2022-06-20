@@ -9,25 +9,28 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<!-- ! header -->
 		<header>
-			<nav class="nav">
-				<a class="logo" href="./index.html"><span class="logo-first-words">Web</span>Studio</a>
-		fdgdfgf
-				<ul class="nav-list ">
-					<li><a class="nav-link  link-active link" href="./index.html">Студия</a></li>
-					<li><a class="nav-link link " href="./portfolio.html">Портфолио</a></li>
-					<li><a class="nav-link link " href="contact">Контакты</a></li>
+			<div class="header container">
+				<nav class="nav">
+					<a class="logo" href="./index.html"><span class="logo-first-words">Web</span>Studio</a>
+			
+					<ul class="nav-list ">
+						<li class="nav-link"><a class="  link-active link" href="./index.html">Студия</a></li>
+						<li class="nav-link"><a class=" link " href="./portfolio.html">Портфолио</a></li>
+						<li class="nav-link"><a class=" link " href="contact">Контакты</a></li>
+					</ul>
+			
+				</nav>
+				<ul class="contact-list nav" >
+					<li class="nav-link"><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					<li class="nav-link"><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
 				</ul>
-		
-			</nav>
-			<ul class="contact-list nav" >
-				<li><a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-			</ul>
+			</div>
 		</header>
 </header>
 <!--! main -->
@@ -42,22 +45,22 @@
 
 
 	<!--! Peculiarities -->
-<section class="peculiarities">
+<section class="peculiarities container">
 	<h2 class="visually-title" >Особенности</h2>
 	<ul class="feature">
-		<li>
+		<li class="feature-list">
 			<h3 class="feature-title">Внимание к деталям</h3>
 			<p class="feature-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
 		</li>
-		<li>
+		<li class="feature-list">
 			<h3 class="feature-title">Пунктуальность</h3>
 			<p class="feature-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
 		</li>
-		<li>
+		<li class="feature-list">
 			<h3 class="feature-title">Планирование</h3>
 			<p class="feature-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
 		</li>
-		<li>
+		<li class="feature-list">
 			<h3 class="feature-title">Современные технологии</h3>
 			<p class="feature-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 		</li>
@@ -65,14 +68,12 @@
 </section>
 
 <!-- ! What are we doing -->
-<section>
-<h2 class="section-title">Чем мы занимаемся</h2>
-
-	<ul class="applications">
-		<li><img src="./images/img.jpg" width="370" height="294" alt="Блок схема"></li>
-		<li><img src="./images/img-1.jpg" width="370" height="294" alt="Мобильные приложение"></li>
-		<li><img src="./images/img-2.jpg" width="370" height="294" alt="Планшет"></li>
-		
+<section class="work container">
+	<h2 class="section-title ">Чем мы занимаемся</h2>
+	<ul class="applications ">
+		<li class="applications-list"><img class="applications-item" src="./images/img.jpg" width="370" height="294" alt="Блок схема"></li>
+		<li class="applications-list"><img class="applications-item" src="./images/img-1.jpg" width="370" height="294" alt="Мобильные приложение"></li>
+		<li class="applications-list"><img class="applications-item" src="./images/img-2.jpg" width="370" height="294" alt="Планшет"></li>
 	</ul>
 </section>
 
