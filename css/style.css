@@ -1,0 +1,259 @@
+
+:root{
+--active-color: #2196F3;
+--hover-color: #107ed8;
+--title-color: #212121;
+--text-color: #757575;
+--bg-color: #2F303A;
+--white-color: #ffffff;
+}
+
+body{
+	font-family:'Roboto' ;
+	font-style: normal;
+	font-size: 16px;
+	color: var(--title-color);
+	background-color: var(--white-color);
+	letter-spacing: 0.03em;
+}
+.container {
+	width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ! button */
+.button{
+	background: #2196F3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	color: var(--white-color);
+	border-radius: 4px;
+	font-weight: 700;
+	line-height: 30px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	font-family: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+
+}
+.button:hover, .button:focus{
+	background-color: var(--hover-color);
+}
+/*? button end */
+.filter-list{
+	font-weight: 500;
+	line-height: 26px;
+	text-align: center;
+	list-style-type: none;
+}
+.filter{
+	border: none;
+	font: inherit;
+	cursor: pointer;
+}
+.filter-active, .filter:hover, .filter:focus{
+	color: var(--white-color);
+	background-color: var(--active-color);
+}
+
+/* *font style */
+.section-title{
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+}
+.subtitle{
+
+}
+.visually-title {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+/* *font style  end*/
+
+/* ! Header  */
+.logo{
+font-family: 'Raleway';
+font-size: 26px;
+font-weight: 700;
+color: #000000;;
+line-height: 31px;
+font-size: 26px;
+text-decoration: none;
+}
+.logo-first-words{
+color: var(--active-color);
+}
+.logo-second-word{
+	color: var(--white-color);
+}
+.nav{
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.nav-list{
+	list-style-type: none;
+}
+.nav-link{
+	color: var(--title-color);
+	text-decoration: none;
+}
+.link:hover, .link:focus{
+	color:var(--hover-color);
+}
+.link-active{
+	color: var(--active-color);
+}
+.contact-list {
+	text-decoration: none;
+	list-style-type: none;
+}
+.contact-link {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+
+/* ? header end  */
+
+
+
+
+/* * main studio */
+
+/* ! hero */
+.hero{
+	background-color: var(--bg-color);
+}
+.hero-title{
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.3;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white-color);
+}
+
+/* !  Peculiarities*/
+
+.feature{
+	list-style-type: none;
+}
+.feature-title {
+	font-size: 14px;
+	line-height: 1.1;
+	text-transform: uppercase;
+}
+
+.feature-text {
+	font-size: 14px;
+	line-height: 1.7;
+	color: var(--text-color);
+}
+
+ /* ! What are we doing  */
+.applications{
+	list-style-type: none;
+}
+
+/* ! Our command */
+.team {
+	background-color: #F5F4FA;
+	list-style-type: none;
+
+}
+
+.team-card {
+	width: 270px;
+	height: 368px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+				0px 1px 1px rgba(0, 0, 0, 0.14),
+				0px 2px 1px rgba(0, 0, 0, 0.2);
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-name {
+	font-weight: 500;
+	line-height: 1.1;
+	text-align: center;
+	color: #212121;
+}
+
+.team-card-job {
+	line-height: 1.1;
+	text-align: center;
+	color: var(--text-color);
+}
+
+/* * main studio end  */
+
+.project-list {
+	list-style-type: none;
+}
+
+.project {
+	width: 370px;
+	height: 404px;
+}
+.project-link{
+text-decoration: none;
+}
+.project-name {
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--title-color);
+}
+
+.project-description {
+	font-weight: 400;
+	line-height: 1.8;
+	color: var(--text-color);
+}
+/* * main portfolio end  */
+
+
+
+/* ! footer  */
+.footer {
+	background-color: var(--bg-color);
+
+}
+.addres{
+	color:var(--white-color);
+}
+.addres-list{
+	list-style-type: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+}
+.addres-map{
+	text-decoration: none;
+	color: var(--white-color);
+
+}
+.addres-contact{
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+}
+/*? footer end  */
